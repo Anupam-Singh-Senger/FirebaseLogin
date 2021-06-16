@@ -1,0 +1,36 @@
+package com.example.firebaseloginpage;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+
+public class Third extends AppCompatActivity {
+    TextView t1;
+    Button b1;
+    FirebaseAuth firebaseAuth;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_third);
+        t1=(TextView)findViewById(R.id.textView);
+        b1=(Button)findViewById(R.id.button5);
+        firebaseAuth=FirebaseAuth.getInstance();
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                firebaseAuth.signOut();
+                Intent i=new Intent(Third.this,MainActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+    }
+}

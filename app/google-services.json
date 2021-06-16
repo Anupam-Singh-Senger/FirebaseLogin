@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "691998091415",
+    "project_id": "fir-loginpage-f747a",
+    "storage_bucket": "fir-loginpage-f747a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691998091415:android:6be8a2357777515abe61d2",
+        "android_client_info": {
+          "package_name": "com.example.firebaseloginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691998091415-r21ot7s7di7rile3etjr1o0k8jt9asbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseloginpage",
+            "certificate_hash": "94ce800f50597e38a6b894c949b8f88ebd759c47"
+          }
+        },
+        {
+          "client_id": "691998091415-9d81ata8cmcvdc5101g2ur8efac5mits.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS6VnFfrsZgrpj-IeavfJiE4S_X_DTf0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691998091415-9d81ata8cmcvdc5101g2ur8efac5mits.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

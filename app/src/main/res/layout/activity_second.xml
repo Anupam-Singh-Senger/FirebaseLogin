@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF9A9A"
+    tools:context=".Second">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter your Email"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText3"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#F44336"
+        android:text="Register"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#F44336"
+        android:text="Back"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

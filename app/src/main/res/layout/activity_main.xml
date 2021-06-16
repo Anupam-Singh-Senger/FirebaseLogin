@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter your Email"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/purple_500"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="@color/purple_500"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#2F49DA"
+        android:text="Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#3F51B5"
+        android:text="Register"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+</RelativeLayout>
